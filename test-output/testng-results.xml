@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40376" started-at="2020-06-02T17:09:38Z" finished-at="2020-06-02T17:10:18Z">
+    <groups>
+    </groups>
+    <test name="Login to application " duration-ms="40376" started-at="2020-06-02T17:09:38Z" finished-at="2020-06-02T17:10:18Z">
+      <class name="LoginWithDataProvider.LoginFB">
+        <test-method status="PASS" signature="LoginbothCorrect(java.lang.String, java.lang.String)[pri:0, instance:LoginWithDataProvider.LoginFB@1bc6a36e]" name="LoginbothCorrect" duration-ms="23114" started-at="2020-06-02T22:39:38Z" data-provider="loginData" finished-at="2020-06-02T22:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testvino@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rithvik0324]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginbothCorrect -->
+        <test-method status="PASS" signature="LoginbothCorrect(java.lang.String, java.lang.String)[pri:0, instance:LoginWithDataProvider.LoginFB@1bc6a36e]" name="LoginbothCorrect" duration-ms="17106" started-at="2020-06-02T22:40:01Z" data-provider="loginData" finished-at="2020-06-02T22:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rithvik03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginbothCorrect -->
+      </class> <!-- LoginWithDataProvider.LoginFB -->
+    </test> <!-- Login to application  -->
+  </suite> <!-- Suite -->
+</testng-results>
